@@ -8,11 +8,11 @@
 	
 	$ideas = array('Interactive Game','Mathematical Modeling');
 	
-	echo '<ul>'
+	echo '<ul>';
 	foreach($ideas as $i){
-		echo'<li>'.$i.'</li>;
+		echo'<li>'.$i.'</li>';
 	}
-	echo '<ul>'
+	echo '<ul>';
 	
 </body>
 
