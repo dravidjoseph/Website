@@ -4,7 +4,7 @@
 
 <body>
 	
-	<?php echo "Project Ideas"?>
+	<?php echo 'Project Ideas'?>
 	<?
 	$ideas = array('Interactive Game','Mathematical Modeling');
 	
