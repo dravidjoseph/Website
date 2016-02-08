@@ -5,7 +5,7 @@
 <body>
 	
 	<?php echo "Project Ideas"?>
-	
+	<?
 	$ideas = array('Interactive Game','Mathematical Modeling');
 	
 	echo '<ul>';
@@ -13,7 +13,7 @@
 		echo'<li>'.$i.'</li>';
 	}
 	echo '<ul>';
-	
+	?>
 </body>
 
 
