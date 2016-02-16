@@ -1,4 +1,21 @@
 
+<?php
+	
+function Get_djosephProjectIdea($index){
+	
+	if($index == 0){
+		return 'Interactive Game';
+	}
+	else if($index == 1){
+		return 'Mathematical Modeling';
+	}
+	else{
+		return 'Tip Calculator';
+	}	
+}		
+?>
+
+
 
 <html>
 
@@ -9,9 +26,9 @@
 	$ideas = array('Interactive Game','Mathematical Modeling');
 	
 	echo '<ul>';
-	foreach($ideas as $i){
-		echo'<li>'.$i.'</li>';
-	}
+	echo'<li>'.Get_djosephProjectIdea(0).'</li>';
+	echo'<li>'.Get_djosephProjectIdea(1).'</li>';
+	echo'<li>'.Get_djosephProjectIdea(2).'</li>';
 	echo '<ul>';
 	?>
 </body>
