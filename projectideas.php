@@ -15,8 +15,7 @@ echo '<body>';
 	echo '</ul>';
 	
 	echo '<h2>Michael Wang Ideas</h2>';
-	$mwang = file_get_contents("http://people.eecs.ku.edu/~mwang/projectideafunctions.php?index=0");
-	echo $mwang;
+	echo 'file_get_contents("http://people.eecs.ku.edu/~mwang/projectideafunctions.php?index=0")';
 	
 	
 echo '</body>';
