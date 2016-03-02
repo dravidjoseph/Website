@@ -14,6 +14,5 @@ function Get_djosephProjectIdea($index){
 
 if(isset($_GET['index'])){
 	echo Get_djosephProjectIdea($_GET['index']);
-	
 }
 ?>
