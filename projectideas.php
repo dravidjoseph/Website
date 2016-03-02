@@ -1,5 +1,9 @@
 
+
+
 <?php
+	
+require_once("projectideafunctions.php");
 	
 function Get_djosephProjectIdea($index){
 	
